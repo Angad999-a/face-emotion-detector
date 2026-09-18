@@ -133,9 +133,6 @@ pytest tests/ -v
 ```
 Tests validate: face detector returns expected bounding-box format on a known sample image; emotion classifier returns a valid label from the defined emotion set; no-face-detected frames are handled without crashing.
 
-## Screenshots
-_(Add screenshots of annotated output and the summary chart here after running the project.)_
-
 ## Future Enhancements
 - Multi-face tracking across frames (avoid re-identifying the same face as new each frame)
 - Fine-tune the emotion model on a domain-specific dataset
